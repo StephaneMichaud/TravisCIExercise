@@ -8,6 +8,6 @@ public class PercentDiscountStrategy
   }
 
   public float applyDiscount(Order order) {
-    return order.ggetPrice() * (1 - this.pct/100);
+    return order.getPrice() * (1 - this.pct/100);
   }
 } 
